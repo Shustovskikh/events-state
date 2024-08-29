@@ -1,0 +1,30 @@
+.toolbar {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.toolbar button {
+  margin: 0 5px;
+  padding: 10px 20px;
+  background-color: #f0f0f0;
+  border: 1px solid #ccc;
+  cursor: pointer;
+}
+
+.toolbar button.selected {
+  background-color: #333;
+  color: #fff;
+}
+
+.projects {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.projects img {
+  margin: 10px;
+  max-width: 200px;
+  height: auto;
+}
